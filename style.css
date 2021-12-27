@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI;
+}
+.banner{
+background-color: #C8E3D4;
+ width: 100%;
+ height: 100vh;
+ padding-bottom: 20px ;
+}
+.header{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+
+ul li {
+    display: inline-block ;
+    margin-right:  5px 10px;
+}
+
+ul{
+    margin-right: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 2px 5px;
+    border: 2px solid white;
+    margin-right:  5px 10px;
+}
+
+ul li a:hover{
+    color: darkcyan;
+    background-color: white;
+    border: 2px solid #C8E3D4;
+    transition: 0.5s ease;
+}
+.row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 15vh;
+}
+.col-1{
+    width: 500px;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col-2{
+    width: 300px;
+    height: auto;
+    
+    padding-top: 30px;
+    
+}
+
+
+
+.img1{
+    width: 230px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.text-1{
+    font-size: 16px;
+    font-style: italic;
+    color: #297F87;
+    padding: 10px;
+}
+
+.btn{
+    background-color: #297F87;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    color: darkcyan;
+    background-color: white;
+    border: 2px solid darkcyan;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.option{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    color: rgb(8, 5, 41);
+    margin-left: 10px;
+}
+
+.option a{
+    text-decoration: none;
+    color: #226B80;
+    padding-bottom: 5px;
+}
+
+.option a:hover{
+    color: #086972;
+    border: #297F87 1px solid;
+    transition: 0.5s ease;
+}
+
+a{
+    text-decoration: none;
+    color: #007065;
+}
+
+h3{
+    padding-bottom: 10px;
+    color: #226B80;
+    font-style: normal;
+}
+
+.btn2{
+    background-color: #297F87;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid white;
+    margin-top: 20px;
+}
+
+.btn2:hover{
+    color: darkcyan;
+    background-color: white;
+    border: 2px solid darkcyan;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+
+
+h2{
+padding: 10px;
+color: white;
+}
+
+.btna{
+    background-color: #297F87;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.btna:hover{
+    color: darkcyan;
+    background-color: white;
+    border: 2px solid darkcyan;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.btnb{
+    background-color: #297F87;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid white;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.btnb:hover{
+    color: darkcyan;
+    background-color: white;
+    border: 2px solid darkcyan;
+    cursor: pointer;
+}
+
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: darkcyan
+}
+
+@media(max-width:500px){
+    .banner{
+        background-color: #C8E3D4;
+         width: 100%;
+         height: auto;
+         padding-bottom: 20px ;
+        }
+}
